@@ -1,0 +1,437 @@
+*{
+box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+h1 {
+  font-size:50px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+  background-color: white;
+  padding: 0;
+  color: black;
+}
+
+
+a.et:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.et:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.et:hover {
+    color: black;
+    background-color: transparent;
+}
+a.et:active {
+    color: black;
+    background-color: transparent;
+}
+
+/*første billede*/
+#heksaet{
+  color:black;
+  border: none;
+  background: url('img/wood.png');
+}
+#heksato{
+  color:black;
+  background-color: grey;
+  border: none;
+}
+
+#heksatre{
+  color:black;
+  background-color: pink;
+  border: none;
+}
+
+#heksafire{
+  color:white;
+  background-color: green;
+  border: none;
+}
+/*billede to*/
+#faxaet{
+  color:black;
+  border: none;
+  background-color: yellow;
+}
+#faxato{
+  color:black;
+  background-color: grey;
+  border: none;
+}
+
+#faxatre{
+  color:black;
+  background-color: pink;
+  border: none;
+}
+
+#faxafire{
+  color:white;
+  background-color: black;
+  border: none;
+}
+/*billede tre*/
+#linkaet{
+  color:black;
+  border: none;
+  background-color: green;
+}
+#linkato{
+  color:black;
+  background-color: grey;
+  border: none;
+}
+
+
+/*billede fire*/
+#staket{
+  color:black;
+  border: none;
+  background: url('img/wood.png');
+}
+#stakto{
+  color:black;
+  background-color: grey;
+  border: none;
+}
+
+#staktre{
+  color:black;
+  background-color: white;
+  border: none;
+}
+
+#stakfire{
+  color:white;
+  background-color: black;
+  border: none;
+}
+
+/*billede fem*/
+#nekaet{
+  color:black;
+  border: none;
+  background: url('img/wood.png');
+}
+#nekato{
+  color:black;
+  background-color: grey;
+  border: none;
+}
+
+#nekatre{
+  color:black;
+  background-color: white;
+  border: none;
+}
+
+#nekafire{
+  color:white;
+  background-color: green;
+  border: none;
+}
+
+
+/*kodet af wolf*/
+/*Bruger max-width for at for billederne til at passe*/
+  h2 {
+    font-size:1.5em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 0em;
+    margin-top: 0;
+    background-color: white;
+    padding: 0;
+    margin:0;
+    color: black;
+  }
+
+  img {
+    max-width: 80%;
+    margin-top: 0em;
+    margin-left: 1.5em;
+  }
+
+  figcaption {
+    font-family: 'Raleway' sans-serif;
+
+    clear: center;
+    margin-left: 1.5em;
+  }
+
+  p {
+    font-family: 'Raleway' sans-serif;
+
+    text-align: left;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+  }
+
+header {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #ceebe7;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+
+  footer{
+    position: fixed;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 35px;
+     color: white;
+     font-size: 12px;
+     display: inline-block;
+     background-color: black;
+     text-align: center;
+     font-family: 'Raleway', sans-serif;
+     padding:10px
+    }
+
+
+
+a.et:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.et:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.et:hover {
+    color: black;
+    background-color: transparent;
+}
+a.et:active {
+    color: black;
+    background-color: transparent;
+}
+
+
+div.polaroid {
+  max-width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+div.container {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  padding: 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url('img/wood.png');
+    text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 9px;
+}
+
+li a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    padding: 14px 7px;
+    font-size: 9px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+  @media only screen and (min-width: 360px){
+      .responsive {
+          width: 100%;
+      }
+
+      h1 {
+        background-color: white;
+
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        font-size: 5px;
+        display: inline-block;
+        font-size: 12px;
+      }
+
+      li a {
+          display: block;
+          font-size: 8px;
+          color: white;
+          text-align: center;
+          padding: 14px 7px;
+          font-size: 10px;
+
+          text-decoration: none;
+      }
+
+      div.polaroid {
+        max-width: 80%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+  }
+
+  div.container {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    padding: 0px 10px 5px 10px;
+    margin: 0;
+  }
+
+  }
+
+  @media only screen and (min-width: 441px){
+      .responsive {
+          width: 100%;
+      }
+
+      h1 {
+        background-color: white;
+
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        font-size: 5px;
+        display: inline-block;
+        font-size: 17px;
+      }
+
+      li a {
+          display: block;
+          font-size: 8px;
+          color: white;
+          text-align: center;
+          padding: 14px 9px;
+          font-size: 15px;
+
+          text-decoration: none;
+      }
+
+      div.polaroid {
+        max-width: 80%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+  }
+
+  div.container {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    padding: 0px 10px 5px 10px;
+    margin: 0;
+  }
+  }
+
+
+  @media only screen and (min-width: 736px){
+      .responsive {
+          width: 100%;
+      }
+
+      h1 {
+        background-color: white;
+        font-size:80px;
+
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        font-size: 5px;
+        display: inline-block;
+        font-size: 20px;
+      }
+
+      li a {
+          display: block;
+          font-size: 10px;
+          color: white;
+          text-align: center;
+          padding: 14px 17px;
+          font-size: 18px;
+          text-decoration: none;
+      }
+
+      div.polaroid {
+        max-width: 60%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+  }
+
+  div.container {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding: 0px 10px 5px 10px;
+    margin: 0;
+  }
+  }

@@ -1,0 +1,289 @@
+*{
+box-sizing: border-box;
+}
+
+p {
+padding-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url('img/wood.png');
+    text-align: center;
+}
+
+li {
+display: inline-block;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  position: absolute;
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer{
+  position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 30px;
+   color: white;
+   font-size: 12px;
+   background-color: black;
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+	}
+
+
+
+
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        font-size: 5px;
+        display: inline-block;
+        font-size: 12px;
+      }
+
+      li a {
+          display: block;
+          font-size: 8px;
+          color: white;
+          text-align: center;
+          padding: 14px 7px;
+          font-size: 10px;
+
+          text-decoration: none;
+      }
+
+      div.polaroid {
+        max-width: 80%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+  }
+
+  div.container {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    padding: 0px 10px 5px 10px;
+    margin: 0;
+  }
+  }
+
+  @media only screen and (min-width: 441px){
+      .responsive {
+          width: 100%;
+      }
+
+      h1 {
+        background-color: white;
+
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        font-size: 5px;
+        display: inline-block;
+        font-size: 17px;
+      }
+
+      li a {
+          display: block;
+          font-size: 8px;
+          color: white;
+          text-align: center;
+          padding: 14px 9px;
+          font-size: 15px;
+
+          text-decoration: none;
+      }
+
+      div.polaroid {
+        max-width: 80%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+  }
+
+  div.container {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    padding: 0px 10px 5px 10px;
+    margin: 0;
+  }
+  }
+
+
+  @media only screen and (min-width: 736px){
+      .responsive {
+          width: 100%;
+      }
+
+      h1 {
+        background-color: white;
+        font-size:80px;
+
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        font-size: 5px;
+        display: inline-block;
+        font-size: 20px;
+      }
+
+      li a {
+          display: block;
+          font-size: 10px;
+          color: white;
+          text-align: center;
+          padding: 14px 17px;
+          font-size: 18px;
+          text-decoration: none;
+      }
+
+      div.polaroid {
+        max-width: 60%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+  }
+
+  div.container {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding: 0px 10px 5px 10px;
+    margin: 0;
+  }
+  }
+
+
+  div.spis {
+    border-style: ridge;
+    border-color: #E8DAEF
+    color: black;
+  }
+
+  div.spis {
+    margin: 20px;
+  }
+
+#tree{
+  color:black;
+  border: none;
+  background: url('img/wood.png')
+
+}
+#grey{
+  color:black;
+  background-color: grey;
+  border: none;
+}
+
+#white{
+  color:black;
+  background-color: white;
+  border: none;
+}
+
+#black{
+  color:white;
+  background-color: black;
+  border: none;
+}
+
+#yellow{
+  color:black;
+  background-color: yellow;
+  border: none;
+}
+
+figcaption.spis {font-size: 200%;
+  text-decoration: underline; color: violet;
+}
